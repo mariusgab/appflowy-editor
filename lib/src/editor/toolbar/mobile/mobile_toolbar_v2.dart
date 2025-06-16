@@ -192,7 +192,7 @@ class _MobileToolbar extends StatefulWidget {
 class _MobileToolbarState extends State<_MobileToolbar>
     implements MobileToolbarWidgetService {
   // used to control the toolbar menu items
-  PropertyValueNotifier<bool> showMenuNotifier = PropertyValueNotifier(false);
+  PropertyValueNotifier<bool> showMenuNotifier = PropertyValueNotifier(true);
 
   // when the users click the menu item, the keyboard will be hidden,
   //  but in this case, we don't want to update the cached keyboard height.
