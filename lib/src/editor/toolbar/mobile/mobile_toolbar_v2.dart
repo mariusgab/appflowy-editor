@@ -62,7 +62,7 @@ class MobileToolbarV2 extends StatefulWidget {
 class _MobileToolbarV2State extends State<MobileToolbarV2> {
   OverlayEntry? toolbarOverlay;
 
-  final isKeyboardShow = ValueNotifier(false);
+  final isKeyboardShow = ValueNotifier(true);
 
   @override
   void initState() {
